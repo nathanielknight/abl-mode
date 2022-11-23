@@ -1,7 +1,9 @@
 # abl-mode
-An Emacs major mode for editing Progress OpenEdge/Advanced Business Language files.
+An Emacs major mode for editing
+[Progress OpenEdge/Advanced Business Language](https://www.progress.com/openedge/features/abl)
+files.
 
-#Installation
+## Installation
 
 Download `abl-mode.el`, put it in your `~/.emacs.d/` directory (or somehwere on
 your Emacs load path), and add `(load-file "abl-mode.el")` to your
@@ -9,7 +11,7 @@ your Emacs load path), and add `(load-file "abl-mode.el")` to your
 invoke it explicitly with `M-x abl-mode`).
 
 
-#Contributing
+## Contributing
 
 Improve `abl-mode` by
 
@@ -20,7 +22,7 @@ Improve `abl-mode` by
  * Open a pull request.
 
 
-#Roadmap
+## Roadmap
 New features that might be developed are
 
  * Automatic indentation
