@@ -228,6 +228,7 @@ definition."
 
 
 ;; Synthesis =========================================================
+;;;###autoload
 (define-derived-mode abl-mode
   prog-mode "ABL"
   "Major mode for editing ABL"
@@ -245,5 +246,7 @@ definition."
   (set (make-local-variable 'tab-width) 4)
   set (make-local-variable 'tab-stop-list) (number-sequence 0 200 4))
 
+;;;###autoload
 (add-to-list 'auto-mode-alist '("\\.p\\'" . abl-mode))
+
 (provide 'abl-mode)
